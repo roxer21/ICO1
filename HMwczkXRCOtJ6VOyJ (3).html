@@ -1,0 +1,218 @@
+<html><head><base href="." />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Institute of Criminology | معهد علم الإجرام</title>
+<style>
+:root {
+    --primary: #2b3d4f;  
+    --secondary: #446cb3; 
+    --accent: #81a8e3;   
+    --text: #2c3e50;     
+    --background: #f0f4f8; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+nav {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.nav-links {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--secondary), var(--accent));
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 -10px 20px rgba(0,0,0,0.1);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.social-links a {
+    color: var(--primary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--secondary);
+    background: rgba(69, 108, 179, 0.1);
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.article-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+.language-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.arabic {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Traditional Arabic', 'Arabic Typesetting', serif;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        padding: 1rem;
+    }
+}
+</style>
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <a href="https://www.facebook.com/universite.oran.algerie?mibextid=ZbWKwL" target="_blank">University Page | صفحة الجامعة</a>
+            <a href="https://qr.codes/viCyJc" target="_blank">Criminology | علم الإجرام</a>
+            <a href="#contact">Contact | اتصل بنا</a>
+            <a href="https://t.me/+SIfrlNMpb_U4MzI0" target="_blank">Master Lessons | دروس الماستر</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Institute of Criminology | معهد علم الإجرام</h1>
+        <p>Excellence in Criminal Justice Education and Research</p>
+        <p class="arabic">التميز في تعليم العدالة الجنائية والبحث العلمي</p>
+    </section>
+
+    <div class="container">
+        <section class="section" id="criminology">
+            <h2>Criminology Department | قسم علم الإجرام</h2>
+            <p>Our Criminology program offers comprehensive education in criminal justice, forensic science, and criminal psychology. Students engage in both theoretical and practical aspects of criminology through our state-of-the-art facilities and experienced faculty.</p>
+            <p class="arabic">يقدم برنامج علم الإجرام لدينا تعليماً شاملاً في مجال العدالة الجنائية، العلوم الجنائية، وعلم النفس الجنائي. يشارك الطلاب في الجوانب النظرية والعملية لعلم الإجرام من خلال مرافقنا الحديثة وأعضاء هيئة التدريس ذوي الخبرة.</p>
+            
+            <div class="article-grid" style="margin-top: 2rem;">
+                <div class="article-card">
+                    <a href="https://docs.google.com/viewerng/viewer?url=https://www.kotobati.com/sites/default/files/2022-06/%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3+%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A.pdf&hl=ar" style="text-decoration: none; color: inherit;" target="_blank">
+                        <h3>Introduction to Criminal Psychology | مقدمة في علم النفس الجنائي</h3>
+                        <p>Criminal psychology is the study of the thoughts, behaviors, and intentions of criminals.</p>
+                        <p class="arabic">علم النفس الجنائي هو دراسة أفكار وسلوكيات ونوايا المجرمين.</p>
+                    </a>
+                </div>
+                
+                <div class="article-card">
+                    <a href="https://www.sciepublish.com/article/pii/279#:~:text=Mobile%20DNA%20analysis%20and%20field%2Ddeployed%20platforms%20represent%20a%20new,sites%2C%20or%20other%20remote%20locations." style="text-decoration: none; color: inherit;" target="_blank">
+                        <h3>Modern Forensic Science Techniques | تقنيات الطب الشرعي الحديثة</h3>
+                        <p>Latest developments in forensic investigation techniques and methods.</p>
+                        <p class="arabic">أحدث التطورات في تقنيات وأساليب التحقيق الجنائي.</p>
+                    </a>
+                </div>
+
+                <div class="article-card">
+                    <a href="https://www.unodc.org/documents/scientific/ST_NAR_39_A.pdf" style="text-decoration: none; color: inherit;" target="_blank">
+                        <h3>Crime Scene Investigation | التحقيق في مسرح الجريمة</h3>
+                        <p>Learn about proper crime scene investigation protocols and procedures.</p>
+                        <p class="arabic">تعرف على بروتوكولات وإجراءات التحقيق السليمة في مسرح الجريمة.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact Us | اتصل بنا</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/criminologie.oran?mibextid=ZbWKwL" target="_blank">Facebook Page | صفحة الفيسبوك</a>
+                <a href="mailto:institut.criminologie@univ-oran1.dz">Email Us | راسلنا</a>
+            </div>
+        </section>
+    </div>
+</body></html>
